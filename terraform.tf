@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "rancher2" {
-  api_url    = "ys"
+  api_url    = "api_url_of_rancher_server"
   access_key = var.rancher2_access_key
   secret_key = var.rancher2_secret_key
 }
