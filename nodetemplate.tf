@@ -10,7 +10,7 @@ resource "rancher2_node_template" "master" {
     datastore     = ""
     disk_size     = ""
     memory_size   = ""
-    network       = ""
+    network       = [""]
     creation_type = "template"
     clone_from    = ""
   }
@@ -28,7 +28,7 @@ resource "rancher2_node_template" "worker" {
     datastore     = ""
     disk_size     = ""
     memory_size   = ""
-    network       = ""
+    network       = [""]
     creation_type = "template"
     clone_from    = ""
   }
